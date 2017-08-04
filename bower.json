@@ -1,0 +1,22 @@
+{
+  "name": "qzone",
+  "authors": [
+    "Uniquec <837046740@qq.com>"
+  ],
+  "description": "'copy qq zone'",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
