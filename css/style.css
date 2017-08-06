@@ -14,9 +14,9 @@ body {
   display: flex;
 }
 .nav-style div:first-child a img {
-  width: 45px;
-  height: 45px;
-  margin-top: -16px;
+  width: 40px;
+  height: 40px;
+  margin-top: -12px;
 }
 .nav-style div:first-child a div {
   color: white;
@@ -26,35 +26,115 @@ body {
   font-size: 12px !important;
   margin-left: -10px;
 }
-.nav-style div:nth-child(2) a:hover {
-  background-color: #e09600;
+.nav-style div:nth-child(2) a .iconfont {
+  -webkit-text-stroke: 1px white;
 }
-.nav-style div:nth-child(2) .play-square,
-.nav-style div:nth-child(2) .stats-square {
+.nav-style div:nth-child(2) .music-player {
+  display: flex;
+  margin-left: 8em;
+}
+.nav-style div:nth-child(2) .music-player .play-square,
+.nav-style div:nth-child(2) .music-player .stats-square {
   width: 20px;
   height: 20px;
   background-color: #e09600;
-  margin-top: 16px;
 }
-.nav-style div:nth-child(2) .play-square span,
-.nav-style div:nth-child(2) .stats-square span {
-  text-align: center;
+.nav-style div:nth-child(2) .music-player .play-square .glyphicon-play,
+.nav-style div:nth-child(2) .music-player .stats-square .glyphicon-play {
+  margin-left: 3px;
 }
-.nav-style div:nth-child(2) .play-square {
-  margin-left: 50px;
-}
-.nav-style div:nth-child(2) .stats-square {
+.nav-style div:nth-child(2) .music-player .stats-square {
   margin-left: 2px;
 }
-.nav-style div:nth-child(2) input {
-  position: relative;
+.nav-style div:nth-child(2) .music-player:hover {
+  background-color: #FFFFFF;
+}
+.nav-style div:nth-child(2) .music-player:hover .play-square,
+.nav-style div:nth-child(2) .music-player:hover .stats-square {
+  background-color: lightgrey;
+  color: gray;
+}
+.nav-style div:nth-child(2) .search-input input {
+  width: 140px;
+  margin-left: 20px;
+  margin-right: 10px;
   margin-top: 15px;
-  margin-left: 15px;
+  border: none;
+  outline: none;
+  background-color: #dda840;
+}
+.nav-style div:nth-child(2) .search-input input::-webkit-input-placeholder {
+  color: #f4e4c5;
+}
+.nav-style div:nth-child(2) .search-input .glyphicon-search {
+  margin-left: -35px;
+  margin-top: 1px;
+}
+.nav-style div:nth-child(2) .user-home {
+  display: flex;
+}
+.nav-style div:nth-child(2) .user-home img {
+  width: 20px;
   height: 20px;
 }
-.nav-style div:nth-child(2) .glyphicon-search {
-  position: absolute;
-  float: right;
+.nav-style div:nth-child(2) .user-home div {
+  margin-left: 5px;
+}
+.nav-style div:nth-child(2) .sign-out,
+.nav-style div:nth-child(2) .settings,
+.nav-style div:nth-child(2) .yellow-diamond {
+  font-size: 14px !important;
+}
+.nav-style div:nth-child(2) .yellow-diamond {
+  color: #fea402;
+  border-color: #fea402;
+  margin-top: -2px;
+}
+.nav-style div:nth-child(2) .user-center:hover {
+  background-color: #e09600;
+}
+.nav-style div:nth-child(2) .my-homepage:hover,
+.nav-style div:nth-child(2) .my-homepage:active,
+.nav-style div:nth-child(2) .my-homepage:visited,
+.nav-style div:nth-child(2) .friends:hover,
+.nav-style div:nth-child(2) .friends:active,
+.nav-style div:nth-child(2) .friends:visited,
+.nav-style div:nth-child(2) .games:hover,
+.nav-style div:nth-child(2) .games:active,
+.nav-style div:nth-child(2) .games:visited,
+.nav-style div:nth-child(2) .dress:hover,
+.nav-style div:nth-child(2) .dress:active,
+.nav-style div:nth-child(2) .dress:visited,
+.nav-style div:nth-child(2) .settings:hover,
+.nav-style div:nth-child(2) .settings:active,
+.nav-style div:nth-child(2) .settings:visited {
+  background-color: #fff;
+  color: #0f0f0f;
+}
+.nav-style div:nth-child(2) .my-homepage:hover .iconfont,
+.nav-style div:nth-child(2) .my-homepage:active .iconfont,
+.nav-style div:nth-child(2) .my-homepage:visited .iconfont,
+.nav-style div:nth-child(2) .friends:hover .iconfont,
+.nav-style div:nth-child(2) .friends:active .iconfont,
+.nav-style div:nth-child(2) .friends:visited .iconfont,
+.nav-style div:nth-child(2) .games:hover .iconfont,
+.nav-style div:nth-child(2) .games:active .iconfont,
+.nav-style div:nth-child(2) .games:visited .iconfont,
+.nav-style div:nth-child(2) .dress:hover .iconfont,
+.nav-style div:nth-child(2) .dress:active .iconfont,
+.nav-style div:nth-child(2) .dress:visited .iconfont,
+.nav-style div:nth-child(2) .settings:hover .iconfont,
+.nav-style div:nth-child(2) .settings:active .iconfont,
+.nav-style div:nth-child(2) .settings:visited .iconfont {
+  color: grey !important;
+  -webkit-text-stroke: 1px grey;
+}
+.nav-style div:nth-child(2) .yellow-diamond:hover,
+.nav-style div:nth-child(2) .yellow-diamond:active,
+.nav-style div:nth-child(2) .yellow-diamond:visited {
+  background-color: #fff;
+  color: #fea402;
+  border-color: #fea402;
 }
 .chy-footer {
   width: 90%;
