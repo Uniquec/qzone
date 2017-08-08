@@ -136,6 +136,143 @@ body {
   color: #fea402;
   border-color: #fea402;
 }
+.homepage-content .homepage-head {
+  display: flex;
+}
+.homepage-content .homepage-head .head-title {
+  margin-left: 16em;
+}
+.homepage-content .homepage-head .head-title .qzone-name {
+  display: flex;
+}
+.homepage-content .homepage-head .head-title .qzone-name div:first-child {
+  font-size: 28px;
+  color: #a5a5a5;
+}
+.homepage-content .homepage-head .head-title .qzone-name .icon-pingguo {
+  font-size: 18px;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #eb7b6a;
+}
+.homepage-content .homepage-head .head-title .qzone-name .rank-number {
+  font-size: 12px;
+  margin-left: -5px;
+  margin-top: 20px;
+  color: white;
+  -webkit-text-stroke: 1px #f49648;
+}
+.homepage-content .homepage-head .head-title .qzone-name .icon-p-shouji {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 6px;
+  color: #237def;
+}
+.homepage-content .homepage-head .head-title .qzone-address {
+  font-size: 16px;
+  color: #cc8f14;
+  margin-top: 3px;
+}
+.homepage-content .homepage-head button {
+  display: flex;
+  width: 60px;
+  height: 30px;
+  margin-left: 45em;
+  margin-top: 30px;
+  color: #939393;
+  opacity: 0.5;
+  border-radius: 40%;
+  outline: none;
+  border: none;
+}
+.homepage-content .homepage-head button .icon-dianzan1 {
+  color: white;
+  font-size: 18px;
+}
+.homepage-content .homepage-head button div {
+  color: white;
+  margin-left: 1em;
+  margin-top: 2px;
+}
+.homepage-content .homepage-nav {
+  display: flex;
+}
+.homepage-content .homepage-nav img {
+  width: 130px;
+  height: 130px;
+  box-sizing: border-box;
+  border: 3px solid #FFFFFF;
+  margin-left: 16em;
+  margin-top: 80px;
+}
+.homepage-content .homepage-nav div:nth-child(2) .qq-name {
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #cc8f14;
+}
+.homepage-content .homepage-nav div:nth-child(2) a {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #403e39;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message {
+  display: flex;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .diamond-rank .big-diamond {
+  font-size: 24px;
+  color: lightgrey;
+  margin-left: 20px;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .diamond-rank div {
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .growth-schedule {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #cc8f14;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .growth-schedule .progress {
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 10px;
+  background-color: #a5c4d8;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .growth-schedule .progress .progress-bar {
+  width: 0;
+  color: black;
+  line-height: 10px;
+  font-size: 8px;
+  margin-left: 3px;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .renew-diamond {
+  width: 80px;
+  height: 30px;
+  background-color: #ffcf04;
+  border: 1px solid #dd8a00;
+  color: #a94c04;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 3px;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .renew-diamond:hover,
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .big-diamond:hover,
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .lovers-diamond:hover,
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .growth-schedule:hover {
+  text-decoration: none;
+}
+.homepage-content .homepage-nav div:nth-child(2) .yellow-diamond-message .lovers-diamond {
+  font-size: 30px;
+  color: lightgrey;
+  margin-left: 20px;
+}
+.homepage-content .homepage-nav div:nth-child(2) .nav-content {
+  margin-top: 25px;
+  margin-left: 10px;
+}
 .chy-footer {
   width: 90%;
   margin: auto;
