@@ -1,29 +1,38 @@
 [
   {
+    "image":"../image/visitor-image1.jpg",
     "name":"余新炜"
   },
   {
+    "image":"../image/visitor-image2.jpg",
     "name":"洪磊"
   },
   {
+    "image":"../image/visitor-image3.jpg",
     "name":"陈都"
   },
   {
+    "image":"../image/visitor-image4.jpg",
     "name":"吕靖之"
   },
   {
+    "image":"../image/visitor-image5.jpg",
     "name":"出水芙蓉弱冠人"
   },
   {
+    "image":"../image/visitor-image6.jpg",
     "name":"余晓婷"
   },
   {
+    "image":"../image/visitor-image7.jpg",
     "name":"吕海涛"
   },
   {
+    "image":"../image/visitor-image8.jpg",
     "name":"岑杭瑜"
   },
   {
+    "image":"../image/visitor-image9.jpg",
     "name":"王靖"
   }
 ]

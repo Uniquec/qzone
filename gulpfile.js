@@ -84,8 +84,8 @@ gulp.task('default', ['html', 'styles', 'scripts', 'images', 'fonts', 'lib', 'da
     });
 
     //监听文件变化实时编译
-    gulp.watch('src/style/**/*.scss', ['styles']);
-    gulp.watch('src/img/**/*', ['images']);
+    gulp.watch('src/css/**/*.less', ['styles']);
+    gulp.watch('src/image/**/*', ['images']);
     gulp.watch(['src/app/**/*.html', 'src/js/**/*.js'], ['scripts']);
     // gulp.watch('src/js/**/*.js', ['scripts']);
 

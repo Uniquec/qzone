@@ -338,8 +338,8 @@ body {
             }
         }
         .recent-visitors {
-            width: 310px;
-            height: 360px;
+            width: 320px;
+            height: 420px;
             border: 1px solid #ebe3bc;
             background-color: #fffcf4;
             margin-top: 15px;
@@ -363,16 +363,17 @@ body {
                             width: 95px;
                             height: 95px;
                             margin: auto;
-                            padding-top: 5px;
+                            padding-top: -5px;
                         }
                         .image-title {
+                            position: relative;
+                            z-index: 10;
+                            top: -20px;
+                            padding-left: 5px;
                             width: 95px;
                             height: 20px;
-                            background-color: black;
-                            //opacity: 0.4;
+                            background-color: rgba(0, 0, 0, 0.5);
                             color: #FFFFFF;
-                            margin-top: -20px;
-                            padding-left: 5px;
                         }
                     }
 
@@ -380,7 +381,6 @@ body {
             }
             .visitors-more {
                 padding-left: 10px;
-                padding-top: 5px;
                 color: #cc8f14;
             }
         }
@@ -417,6 +417,120 @@ body {
                     height: 143px;
                     padding-bottom: 10px;
                 }
+            }
+        }
+        .small-talk {
+            width: 615px;
+            margin: auto;
+            border: 1px solid #ebe3bc;
+            background-color: #fffcf4;
+            border-radius: 3px;
+            margin-top: 20px;
+            .talker-message {
+                display: flex;
+                width: 615px;
+                padding-left: 20px;
+                padding-top: 20px;
+                .talker-image {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+                .talker-tips {
+                    margin-left: 10px;
+                    padding-top: 5px;
+                    .talker-name {
+                        font-size: 16px;
+                    }
+                }
+                .glyphicon-menu-down {
+                    color: #bbb4a5;
+                    padding-left: 30em;
+                    font-weight: bolder;
+                }
+            }
+
+            .talk-content {
+                width: 615px;
+                padding-left: 20px;
+                .words {
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+                .talk-image {
+                    padding-top: 10px;
+                    width: 580px;
+                    height: 400px;
+                }
+                .mobile-logo {
+                    padding-top: 5px;
+                }
+            }
+
+            .talk-message {
+                width: 615px;
+                padding-left: 20px;
+                padding-top: 20px;
+                .looks-people {
+                    font-size: 15px;
+                    .icon-dianzan1, .icon-comment, .icon-share {
+                        color: #a69d8d;
+                        font-size: 28px;
+                        padding-left: 2em;
+                    }
+                    .icon-dianzan1 {
+                        padding-left: 11em;
+                    }
+                }
+                .grey-line {
+                    width: 580px;
+                    height: 1px;
+                    margin-top: 5px;
+                    background-color: #ede8d1;
+                }
+                .likes-people {
+                    padding-top: 10px;
+                    display: flex;
+                    .icon-bgc {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: #dbab4a;
+                        .icon-dianzan1 {
+                            color: #FFFFFF;
+                            padding-left: 2px;
+                        }
+                    }
+                    .likes-name {
+                        font-size: 13px;
+                        margin-left: 5px;
+                        color: #dbab4a;
+                        padding-top: 3px;
+                    }
+                }
+            }
+            .talk-comment {
+                width: 615px;
+                padding-left: 20px;
+                padding-top: 10px;
+                margin-bottom: 20px;
+                display: flex;
+                input {
+                    width: 580px;
+                    height: 40px;
+                    border: 1px solid #ede8d1;
+                    background-color: #fffcf4;
+                }
+                ::-webkit-input-placeholder {
+                    padding-left: 10px;
+                }
+                .icon-camera {
+                    margin-left: -30px;
+                    padding-top: 8px;
+                    font-size: 20px;
+                    color: #a69d8d;
+                }
+
             }
         }
     }
