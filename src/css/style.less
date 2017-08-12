@@ -509,6 +509,57 @@ body {
                     }
                 }
             }
+            .specific-comments {
+                width: 615px;
+                padding-left: 20px;
+                padding-top: 20px;
+                .first-comment,.second-comment,.third-comment,.fourth-comment {
+                    .reviewer-comment {
+                        display: flex;
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                        }
+                        .comment-content {
+                            padding-left: 10px;
+                            margin-top: -3px;
+                            span {
+                                color: #cc8f14;
+                            }
+                            .comment-time{
+                                color: #80796c;
+                            }
+                        }
+                    }
+                    .reply-comments{
+                        display: flex;
+                        .reply-comments-image{
+                            width: 50px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding-left: 35px;
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                margin-top: 10px;
+                            }
+                        }
+                        .reply-comments-content{
+                            padding-top: 10px;
+                            padding-left: 25px;
+                            span{
+                                color: #cc8f14;
+                            }
+                            .comment-time{
+                                color: #80796c;
+                                padding-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
             .talk-comment {
                 width: 615px;
                 padding-left: 20px;
