@@ -1,2 +1,3 @@
-export const hostip = 'localhost:3000';
-export const visitors = hostip + '/visitors?jsonp=?';
+export const hostip = 'localhost:3030';
+export const visitors = 'http://' + hostip + '/visitors';
+export const smalltalks = 'http://' + hostip + '/smalltalks';

@@ -1,4 +1,4 @@
-import {visitors} from './config';
+import {visitors,smalltalks} from './config';
 $(function () {
     let current = 0;
 
@@ -24,11 +24,13 @@ $(function () {
         $('#image-name9').text(res[current + 8].name);
     }
 
-    $.getJSON(visitors, (res)=> {
+    $.get(visitors, (res)=> {
         setText(res, current);
         console.log(res);
+    });
 
+    $.get(smalltalks, (res)=> {
+        console.log(res);
     })
 
-
-})
+});
