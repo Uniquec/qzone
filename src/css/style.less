@@ -5,6 +5,8 @@ body {
 
 .navbar {
     border-radius: 0;
+    width: 100%;
+    min-width: 1345px;
 }
 
 .nav-style {
@@ -105,11 +107,11 @@ body {
             background-color: #e09600;
         }
 
-        .my-homepage:hover, .my-homepage:active, .my-homepage:visited,
-        .friends:hover, .friends:active, .friends:visited,
-        .games:hover, .games:active, .games:visited,
-        .dress:hover, .dress:active, .dress:visited,
-        .settings:hover, .settings:active, .settings:visited {
+        .my-homepage:hover, .my-homepage:active,
+        .friends:hover, .friends:active,
+        .games:hover, .games:active,
+        .dress:hover, .dress:active,
+        .settings:hover, .settings:active {
             background-color: #fff;
             color: #0f0f0f;
             .iconfont {
@@ -461,6 +463,10 @@ body {
                     padding-top: 10px;
                     width: 580px;
                     height: 400px;
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
                 }
                 .mobile-logo {
                     padding-top: 5px;
@@ -513,7 +519,7 @@ body {
                 width: 615px;
                 padding-left: 20px;
                 padding-top: 20px;
-                .first-comment,.second-comment,.third-comment,.fourth-comment {
+                .comment {
                     .reviewer-comment {
                         display: flex;
                         img {
@@ -527,36 +533,37 @@ body {
                             span {
                                 color: #cc8f14;
                             }
-                            .comment-time{
+                            .comment-time {
                                 color: #80796c;
                             }
                         }
                     }
-                    .reply-comments{
-                        display: flex;
-                        .reply-comments-image{
-                            width: 50px;
-                            display: flex;
-                            flex-wrap: wrap;
-                            padding-left: 35px;
-                            img{
-                                width: 30px;
-                                height: 30px;
-                                border-radius: 50%;
-                                margin-top: 10px;
-                            }
-                        }
-                        .reply-comments-content{
-                            padding-top: 10px;
-                            padding-left: 25px;
-                            span{
-                                color: #cc8f14;
-                            }
-                            .comment-time{
-                                color: #80796c;
-                                padding-bottom: 10px;
-                            }
-                        }
+                }
+            }
+            .reply-comments {
+                width: 615px;
+                display: flex;
+                flex-wrap: wrap;
+                .reply-comments-image {
+                    width: 65px;
+                    padding-left: 35px;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        margin-top: 10px;
+                    }
+                }
+                .reply-comments-content {
+                    width: 550px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    span {
+                        color: #cc8f14;
+                    }
+                    .comment-time {
+                        color: #80796c;
+                        padding-bottom: 10px;
                     }
                 }
             }
@@ -566,7 +573,7 @@ body {
                 padding-top: 10px;
                 margin-bottom: 20px;
                 display: flex;
-                input {
+                .comment-text {
                     width: 580px;
                     height: 40px;
                     border: 1px solid #ede8d1;
@@ -574,6 +581,7 @@ body {
                 }
                 ::-webkit-input-placeholder {
                     padding-left: 10px;
+                    padding-top: 8px;
                 }
                 .icon-camera {
                     margin-left: -30px;
@@ -582,6 +590,60 @@ body {
                     color: #a69d8d;
                 }
 
+            }
+        }
+        .publish-comment {
+            display: flex;
+            width: 615px;
+            margin: auto;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            .comment-expression {
+                display: flex;
+                .icon-biaoqing {
+                    font-size: 20px;
+                    color: #b6ae9f;
+                }
+                .expression-scircle {
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background-color: #ff6700;
+                }
+            }
+            .icon-aite {
+                font-size: 24px;
+                padding-left: 8px;
+                margin-top: -3px;
+                color: #b6ae9f;
+            }
+            .white-circle {
+                width: 15px;
+                height: 15px;
+                border: 2px solid #cfc9bb;
+                margin-top: 8px;
+                margin-left: 24em;
+            }
+            .private-comment {
+                margin-left: 5px;
+                margin-top: 5px;
+                color: #403e39;
+            }
+            .icon-diamonds {
+                font-size: 16px;
+                color: #fad808;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+            button {
+                width: 78px;
+                height: 33px;
+                background-color: #e6b85c;
+                border: 1px solid #e6b85c;
+                outline: none;
+                color: white;
+                border-radius: 3px;
+                margin-left: 1em;
             }
         }
     }
@@ -628,6 +690,7 @@ body {
 .chy-footer {
     width: 90%;
     margin: auto;
+    margin-top: 40px;
     .line1, .line2, .line3 {
         display: flex;
         justify-content: center;
