@@ -34,7 +34,7 @@ $(function () {
     })
 
     function createSmalltalk(smalltalkarr) {
-        // console.log(smalltalkarr);
+        console.log(smalltalkarr);
         for (let i = 0; i < smalltalkarr.length; i++) {
             let data = smalltalkarr[i];
             // console.log(data);
